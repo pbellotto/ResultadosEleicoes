@@ -231,6 +231,7 @@ namespace ResultadosEleicoes.Utils
                     return descricaoAtributos.FirstOrDefault()?.Description ?? string.Empty;
                 }
 
+                // Retorno
                 return enumerador.ToString();
             }
             catch
